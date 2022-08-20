@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;800&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Catamaran", sans-serif;
+  color: #ffff;
+}
+
+.header-container {
+  width: 100%;
+  background-color: #626c78;
+  margin: 0%;
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+}
+.nav-container {
+  width: 92%;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo > img {
+  width: 70%;
+  margin: 0%;
+  filter: invert();
+}
+.navlink {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlink li {
+  list-style: none;
+}
+.navlink li a {
+  text-decoration: none;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ffff;
+}
+.navbtn {
+  padding: 7px 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero-container {
+  width: 80%;
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-container {
+  width: 25%;
+  height: 450px;
+}
+.left-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.right-container {
+  width: 60%;
+}
+
+.right-container > h1 {
+  font-size: 8vmin;
+  letter-spacing: 1px;
+  margin: 0px;
+  font-weight: 600;
+}
+.right-container > p {
+  width: 70%;
+  font-size: 2.5vmin;
+}
+.contact-sec {
+  background-color: #ffff;
+  width: 60%;
+  height: 45px;
+  display: flex;
+  padding: 5px 2px 5px 7px;
+  align-items: center;
+  position: relative;
+}
+.contact-sec > input {
+  padding: 5px 20px;
+  border: none;
+
+  outline: none;
+}
+.contact-sec > button {
+  padding: 8px 25px;
+  background-color: #8bb7a2;
+  border: none;
+  color: #ffff;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  position: absolute;
+  top: 12%;
+  right: 2%;
+}
+.section01 {
+  width: 95%;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(48, 46, 46);
+}
+.section01 > h1 {
+  font-size: 5vmin;
+  font-weight: 500;
+}
+.num {
+  width: 80%;
+  margin: 2% auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+.num-content > h4 {
+  font-size: 5vmin;
+  margin: 0%;
+}
+.num-content > p {
+  margin: 0px;
+}
+.section01 > img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.section02 {
+  width: 95%;
+  margin: 0% auto;
+  color: rgb(48, 46, 46);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card > img {
+  width: 30%;
+}
+.section02 > h1 {
+  font-size: 6vmin;
+  text-align: center;
+  font-weight: 600;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 95%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card > div {
+  width: 50%;
+}
+.card > div > h1 {
+  font-size: 6vmin;
+  font-weight: 500;
+  margin: 0%;
+}
+.card > div > p {
+  font-size: 2.5vmin;
+  letter-spacing: 1px;
+}
+.cardbtn {
+  padding: 8px 25px;
+  background-color: #8bb7a2;
+  border: none;
+  color: #ffff;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.left {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section03 {
+  width: 80%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(48, 46, 46);
+}
+.section03-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section03-heading > h1 {
+  font-size: 6vmin;
+  font-weight: 700;
+  width: 50%;
+}
+.section03-heading > p {
+  width: 40%;
+  font-size: 2.5vmin;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.emp-img {
+  width: 22%;
+}
+.emp-img > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.emp-imgs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer {
+  width: 100%;
+  background-color: #11191d;
+  color: #ffffff;
+}
+.margin-auto {
+  width: 92%;
+  margin: 0% auto;
+  padding-top: 3%;
+}
+.footer-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-header > img {
+  width: 8%;
+  filter: invert();
+  margin-bottom: 2%;
+}
+.social-media {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media i {
+  font-size: 3vmin;
+  padding: 10px;
+  background-color: #36383a;
+  border-radius: 50%;
+}
+.footer-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 3%;
+}
+.f-content {
+  list-style: none;
+  letter-spacing: 1px;
+  margin: 0%;
+  padding: 0%;
+}
+.f-content li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.fa-solid{
+  display: none;
+  font-size: 3vmin;
+}
+@media only screen and (max-width: 1100px) {
+  .navlink {
+    display: none;
+  }
+  .fa-solid{
+    display: block;
+  }
+  .hero-container{
+    flex-direction: column;
+  }
+  .left-container{
+    width: 70%;
+  }
+  .right-container{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .right-container>p{
+    text-align: center;
+    margin: 0% auto;
+  }
+  .contact-sec{
+    margin: 2% auto;
+    width: 90%;
+  }
+  .section03-heading{
+   
+    flex-direction: column;
+    
+  }
+  .section03-heading>h1{
+    width: 80%;
+  }
+  .section03-heading>p{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .section02>.cards{
+    width: 100%;
+    flex-direction: column;
+
+  }
+  .card{
+    width: 100%;
+    flex-direction: column-reverse;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+  }
+  .card>div{
+    width: 70%;
+  }
+  .card>img{
+    width: 70%;
+  }
+  .emp-img{
+    width: 60%;
+    margin: 2% auto;
+   
+  }
+  .emp-imgs{
+    flex-direction: column;
+  }
+}
